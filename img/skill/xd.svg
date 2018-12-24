@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>xd</title>
+    <desc>Created with Sketch.</desc>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工具圆黑" transform="translate(-450.000000, 0.000000)">
+            <g id="xd" transform="translate(450.000000, 0.000000)">
+                <circle id="Oval" fill="#0A0A0A" cx="150" cy="150" r="150"></circle>
+                <path d="M156.8,82.5001 L133.7,82.8001 L110.1,133.0001 L86.7,83.1001 L61.9,83.4001 L95.5,149.1001 L61.3,215.7001 L84.7,215.7001 L108.6,164.3001 L133.7,215.7001 L158.8,215.7001 L123.2,147.1001 L156.8,82.5001 Z M216.1,196.4001 C192.2,202.8001 182.5,185.3001 182.5,165.2001 C182.5,145.1001 195.9,130.5001 216.4,135.7001 L216.1,196.4001 Z M238.3,201.3001 L238.3,83.4001 L216.4,83.4001 L216.4,116.4001 C177.8,112.2001 160.1,143.4001 160.1,168.5001 C160.1,195.8001 179.4,234.0001 238.6,209.9001 C238.6,209.9001 238.3,205.5001 238.3,201.3001 Z" id="Fill-2" fill="#F246A0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

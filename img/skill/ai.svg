@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>ai</title>
+    <desc>Created with Sketch.</desc>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工具圆黑">
+            <g id="ai">
+                <circle id="Oval" fill="#0A0A0A" cx="150" cy="150" r="150"></circle>
+                <path d="M208.1,105.6 C215.401,105.6 221.401,99.7 221.401,92.3 C221.401,85 215.5,79 208.1,79 C200.701,79 194.8,84.9 194.8,92.3 C194.8,99.6 200.701,105.6 208.1,105.6 Z M196.701,221.1 L219.401,221.1 L219.401,119.701 L196.701,119.701 L196.701,221.1 Z M115.9,161.6 L131.6,102.5 L147.5,162 L115.9,161.6 Z M114.3,83.8 C114.3,83.8 114.3,88.9 113.4,91.5 C112.5,94.1 79,221.2 79,221.2 L100,221.2 L110.4,182.3 L152.901,182.3 L163.3,221.2 L184.3,221.2 L147.6,83.8 L114.3,83.8 Z" id="Fill-10" fill="#FF9619"></path>
+            </g>
+        </g>
+    </g>
+</svg>

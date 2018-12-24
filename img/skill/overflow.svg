@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>overflow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工具圆黑" transform="translate(-2250.000000, 0.000000)">
+            <g id="overflow" transform="translate(2250.000000, 0.000000)">
+                <circle id="Oval" fill="#0A0A0A" cx="150" cy="150" r="150"></circle>
+                <path d="M150,214.447059 C186.022024,214.447059 215.223529,185.245553 215.223529,149.223529 L238,149.223529 C238,197.824376 198.600847,237.223529 150,237.223529 C101.399153,237.223529 62,197.824376 62,149.223529 L84.7764706,149.223529 C84.7764706,185.245553 113.977976,214.447059 150,214.447059 Z M150,84 C186.022024,84 215.223529,113.201506 215.223529,149.223529 L84.7764706,149.223529 C84.7764706,113.201506 113.977976,84 150,84 Z" id="Combined-Shape" fill="#FF4641"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>wy531 - APP全栈设计</title>
+    <meta name="description" content="VI、原型、UI/UE、动效，从0到上线。">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta property="og:url" content="http://wy31.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="wy531 - APP全栈设计">
+    <meta property="og:description" content="VI、原型、UI/UE、动效，从0到上线。">
+    <meta property="og:image" content="img/banner.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@r906">
+    <meta name="twitter:creator" content="@r906">
+    <meta name="twitter:title" content="wy531 - APP全栈设计">
+    <meta name="twitter:description" content="VI、原型、UI/UE、动效，从0到上线。">
+    <meta name="twitter:image" content="img/banner.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#000">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.2/lottie.min.js"></script>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+    <div class="hero is-danger">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="browserupgrade">你正在使用 <strong>过时</strong> 的浏览器。 请 <a href="https://browsehappy.com/">升级你的浏览器</a> 以改善体验和安全性。</p>
+            </div>
+        </div>
+    </div>
+	<![endif]-->
+
+    <div class="hero is-header is-black is-medium">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <br /><br />
+                <p class="title is-4 is-size-5-mobile">APP全栈设计<br />VI、原型、UI/UE、动效，从0到上线。</p><br />
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-dark is-medium is-appicon">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+
+                <div class="columns is-multiline is-desktop is-tablet is-mobile ">
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/hnb/index.html"><img src="img/appicon/hnb.svg" width="80" alt="嗨农宝" />
+                            <p><u>嗨农宝</u></p>
+                        </a>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/xy/index.html"><img src="img/appicon/xy.svg" width="80" alt="犀游" />
+                            <p><u>犀游</u></p>
+                        </a>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/kc/index.html"><img src="img/appicon/kc.svg" width="80" alt="Kidscafe" />
+                            <p><u>Kidscafe</u></p>
+                        </a>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/yx/index.html"><img src="img/appicon/yx.svg" width="80" alt="悦行" />
+                            <p><u>悦行</u></p>
+                        </a>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/bg/index.html"><img src="img/appicon/bg.svg" width="80" alt="巴歌" />
+                            <p><U>巴歌</U></p>
+                        </a>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <a href="app/xl/index.html"><img src="img/appicon/xl.svg" width="80" alt="小良" />
+                            <p><u>小良</u></p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-black is-medium">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="title is-4 is-size-5-mobile">JSON动效</p>
+                <div class="columns is-multiline is-desktop is-tablet is-mobile ">
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <div id="ship" style="height: 100px"></div>
+                        <script>
+                            lottie.loadAnimation({
+                                container: ship,
+                                renderer: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                path: 'json/ship.json'
+                            });
+
+                        </script>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <div id="like" style="height: 100px"></div>
+                        <script>
+                            lottie.loadAnimation({
+                                container: like,
+                                renderer: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                path: 'json/like.json'
+                            });
+
+                        </script>
+                    </div>
+                    <div class="column is-narrow-mobile is-4-desktop is-4-tablet is-4-mobile">
+                        <div id="cat" style="height: 100px"></div>
+                        <script>
+                            lottie.loadAnimation({
+                                container: cat,
+                                renderer: 'svg',
+                                loop: true,
+                                autoplay: true,
+                                path: 'json/cat.json'
+                            });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-dark is-medium">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="title is-4 is-size-5-mobile">VI</p>
+                <img src="img/liucheng/vi.jpg" alt="VI">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-black is-medium">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="title is-4 is-size-5-mobile">原型</p>
+                <img src="img/liucheng/proto.png" alt="原型">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-dark is-medium">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="title is-4 is-size-5-mobile">UI/UE</p>
+                <img src="img/liucheng/ui.jpg" alt="UI"><br /><br />
+                <img src="img/liucheng/ue.svg" alt="UE">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero is-black is-medium is-skill">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <p class="title is-4 is-size-5-mobile">我使用</p>
+
+                <div class="columns is-mobile is-multiline is-centered">
+                    <div class="column is-narrow"><img src="img/skill/ai.svg" width="50" alt="Adobe Illustrator"></div>
+                    <div class="column is-narrow"><img src="img/skill/xd.svg" width="50" alt="Adobe XD"></div>
+                    <div class="column is-narrow"><img src="img/skill/sketch.svg" width="50" alt="Sketch"></div>
+                    <div class="column is-narrow"><img src="img/skill/principle.svg" width="50" alt="Principle"></div>
+                    <div class="column is-narrow"><img src="img/skill/ae.svg" width="50" alt="Adobe After Effects"></div>
+                    <div class="column is-narrow"><img src="img/skill/overflow.svg" width="50" alt="Overflow"></div>
+                </div>
+
+                <P>联系我 → <a href="https://www.zhihu.com/people/rrr/" target="_blank">·<u>知乎</u></a> ·微信号wang_yu</P>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

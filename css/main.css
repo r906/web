@@ -1,0 +1,19 @@
+*,
+.title {
+    font-weight: 300;
+}
+
+.container {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+.hero.is-dark {
+    background-color: #1a1a1d;
+}
+
+.hero.is-header {
+    background-image: url(../img/bg.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}

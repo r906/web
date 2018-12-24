@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工具圆黑" transform="translate(-900.000000, 0.000000)">
+            <g id="sketch" transform="translate(900.000000, 0.000000)">
+                <circle id="Oval" fill="#0A0A0A" cx="150" cy="150" r="150"></circle>
+                <g id="Group" transform="translate(65.000000, 82.000000)" stroke="#FFBE00" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">
+                    <polygon id="Stroke-6" points="45.107858 0.192988636 123.92604 0.192988636 169.806722 42.4998068 84.9999034 140.442989 0.193085227 42.4998068"></polygon>
+                    <polyline id="Stroke-7" points="23.9545455 19.994125 59.1136364 39.8918523 109.340909 39.8918523 145.465909 19.994125"></polyline>
+                    <polyline id="Stroke-8" points="59.1135398 39.8919489 27.8180852 74.3749034 142.181722 74.3749034 109.340813 39.8919489"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
